@@ -9,7 +9,7 @@
     height: 40px;
     font-size: 17px;
     padding: 3px;
-    
+    border-radius: 6px;
    }
 
    #input1{
@@ -21,11 +21,7 @@
     height: 40px;
     font-size: 17px;
     padding: 3px;
-
-   }
-
-   #input2{
-
+    border-radius: 6px;
    }
 
    #button{
@@ -35,7 +31,7 @@
     left: 619px;
     width: 90px;
     height: 49px;
-    padding: 9px;
+    border-radius: 6px;
 }
 
 #link{
@@ -54,15 +50,16 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     border: 1px solid black;
-    width: 400px;
-    height: 259px;
-    left: 500px;
-    bottom: -139px;
-    
+    width: 600px;
+    height: 299px;
+    left: 400px;
+    bottom: -80px;
+    border-radius: 6px;
+    margin-bottom: 179px;
 }
 
 body{
-    background-color: gray;
+    background-color: #e9ebee;
 }
 
 #row{
@@ -72,4 +69,62 @@ body{
     width: 9000px;
     right: 500px;
     height: 900px;
+}
+
+#h5{
+    position: relative;    
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    top: -20px;
+}
+
+#p{
+    position: relative;
+    margin: 20px;
+    top: -20px;
+    margin-bottom: 20px;
+}
+
+#input2{
+    position: relative;
+    border: 1px solid black;
+    top: -10px;
+    right: -39px;
+    width: 500px;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+#div-button{
+    position: relative;
+    margin-top: 10px;
+    padding: 19px;
+    border-top: 1px solid black;
+    bottom: 10px;
+    
+}
+
+#button1{
+    position: relative;
+    right: -439px;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 36px;
+    border-radius: 6px;
+}
+
+#button2{
+    position: relative;
+    right: -189px;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 36px;
+    border-radius: 6px;
+    color: black;
+}
+
+#footer{
+    
 }
