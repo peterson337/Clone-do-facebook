@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+#teste{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 90px;
+    top: 200px;
+}
+
+body{ 
+background-color: aliceblue;
+}
+
+#push{
+    position: relative;
+    color: aqua;
+    background-color: red;
+    top: 139px;
+    left: 809px;    
+}
+
+#teste1{
+    position: relative;
+    background-color: white;
+    top: 10px;
+    left: 809px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+#input{
+ position: relative;
+ border: 1px solid black;
+ bottom: -30px;
+ right: -30px;
+ width: 339px;
+ font-size: 17px;
+}
+
+#input1{
+    position: relative;
+    border: 1px solid black;
+    bottom: -40px;
+    right: -30px;
+    width: 339px;
+    font-size: 17px;
+   }
+
+#button{
+    position: relative;
+    right: 159px;
+    top: 50px;
+    left: 10px;
+    width: 379px;
+    height: 49px;
+}
+
+#button1{
+    position: relative;
+    right: 20px; /*;*/
+    bottom: -129px; /*px;*/
+    width: 200px;
+    height: 49px;
+    color: white;
+}
+
+#link{
+    position: relative;
+    bottom: -60px;
+    right: -129px;
+    /* border-bottom: 1px solid black; */
+}
+
+#link:hover{
+ text-decoration: underline;
+}
+
+#par{
+position: relative;
+left: 779px;
+top: 20px;
+
+}
+
+#parl{
+    color: black;
+}
+
+#parl:hover{
+    text-decoration: underline;
+   }
