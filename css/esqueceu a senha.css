@@ -117,7 +117,7 @@ body{
 
 #button2{
     position: relative;
-    right: -189px;
+    right: -179px;
     padding: 0 20px;
     font-size: 15px;
     line-height: 36px;
@@ -126,5 +126,6 @@ body{
 }
 
 #footer{
-    
+    padding-top: 20px;
+    font-size: 12px;
 }
