@@ -126,6 +126,67 @@ body{
 }
 
 #footer{
-    padding-top: 20px;
+    position: relative;
+    top: -20px;
     font-size: 12px;
+    padding: 109px;
 }
+
+#ul-links{
+    position: relative;
+    display: flex;
+}
+
+.linkz{
+    margin-left:40px;
+    color: black;
+}
+
+#p1{
+    position: relative;
+    color: black;
+    bottom: -30px;
+}
+
+#border{
+    border-bottom: 1px solid black;
+    margin-left:40px;
+}
+
+.p3{
+    color: black;
+    margin-left:40px;
+    display: flex;
+    margin-top:10px;
+}
+
+#container{
+    position: relative;
+    margin-top: -30px; 
+   margin-left:50px;
+}
+
+#add{
+    position: relative;
+    margin-left: 30px;
+    bottom: 3px;
+    color: black;
+    border: 1px solid black;
+}
+
+#row-footer{
+    position: relative;
+    bottom: -90px;
+}
+
+ #card-panel{
+    position: relative;
+    padding:100px;
+    top:-30px; 
+} 
+
+#card-pane1{
+    position: relative;
+    padding:100px;
+    top:-30px; 
+} 
