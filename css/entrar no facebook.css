@@ -1,24 +1,5 @@
 @charset "UTF-8";
 
-#teste{
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 90px;
-    top: 200px;
-}
-
-body{ 
-background-color: aliceblue;
-}
-
-#push{
-    position: relative;
-    color: aqua;
-    background-color: red;
-    top: 139px;
-    left: 809px;    
-}
-
 #teste1{
     position: relative;
     background-color: white;
@@ -30,83 +11,57 @@ background-color: aliceblue;
 }
 
 #input{
- position: relative;
- border: 1px solid black;
- bottom: -30px;
- right: -30px;
- width: 339px;
- font-size: 17px;
- border-radius: 6px;
-}
-
-#input1{
     position: relative;
     border: 1px solid black;
-    bottom: -40px;
+    bottom: -30px;
     right: -30px;
     width: 339px;
     font-size: 17px;
     border-radius: 6px;
    }
-
-#button{
-    position: relative;
-    right: 159px;
-    top: 50px;
-    left: 10px;
-    width: 379px;
-    height: 49px;
-    border-radius: 6px;
-}
-
-#button1{
-    position: relative;
-    right: 20px; /*;*/
-    bottom: -129px; /*px;*/
-    width: 200px;
-    height: 49px;
-    color: white;
-    border-radius: 6px;
-}
-
-#link{
-    position: relative;
-    bottom: -60px;
-    right: -129px;
-    /* border-bottom: 1px solid black; */
-}
-
-#link:hover{
- text-decoration: underline;
-}
-
-#par{
-position: relative;
-left: 779px;
-top: 20px;
-
-}
-
-#parl{
-    color: black;
-}
-
-#parl:hover{
-    text-decoration: underline;
+   
+   #input1{
+       position: relative;
+       border: 1px solid black;
+       bottom: -40px;
+       right: -30px;
+       width: 339px;
+       font-size: 17px;
+       border-radius: 6px;
+      }
+   
+   #button{
+       position: relative;
+       right: 159px;
+       top: 50px;
+       left: 10px;
+       width: 379px;
+       height: 49px;
+       border-radius: 6px;
+   }
+   
+   #button1{
+       position: relative;
+       right: 20px; /*;*/
+       bottom: -129px; /*px;*/
+       width: 200px;
+       height: 49px;
+       color: white;
+       border-radius: 6px;
    }
 
-/* Div para outra página */
+   /* Div para outra página */
 
-#div{
+   #div{
     position: relative;
     width: 500px;
     height: 606px;
     background-color: white;
     border: 1px solid black;
     bottom: -200px;
-    margin-left: 400px; /* -20px */
+    margin-left: 20px;
     top: 0;
-    margin-top: -579px; /* 50px */
+    margin-top: 50px;
    }
 
    #titulo{

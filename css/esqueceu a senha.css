@@ -142,6 +142,10 @@ body{
     color: black;
 }
 
+.linkz:hover{
+    text-decoration: underline;
+   }
+
 #p1{
     position: relative;
     color: black;
@@ -190,3 +194,7 @@ body{
     padding:100px;
     top:-30px; 
 } 
+
+/* .p3:hover{
+    text-decoration: underline;
+   } */

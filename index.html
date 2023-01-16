@@ -17,6 +17,9 @@
     <!-- Jquery do projeto -->
     <script src=" https://code.jquery.com/jquery-3.6.1.min.js" defer></script>
 
+     <!-- LInk dos iconis -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Facebook</title>
 </head>
 <body>
@@ -27,15 +30,36 @@
         </p>
     </div>
   
-<div id="teste1" class="z-depth-2">
+    <div id="teste1" class="z-depth-2">
     <input type="email" id="input" placeholder="email ou telefone">
     <input type="text" id="input1" placeholder="senha">
-    <button class="blue darken-1 waves-light btn" id="button"><b>Entrar</b></button>
+    <button class="blue darken-1 waves-light btn" id="button" onclick="window.location.href = 'tela-principal-do-facebook.html'"><b>Entrar</b></button>
     <a href="esqueceu a senha.html" id="link">Esqueceu a senha?</a>
     <button class=" light-green accent-4 waves-light z-depth-1" type="submit" name="action" id="button1"><b>Criar nova conta</b></button>
   </div>
   
   <p id="par"><a href="#" id="parl"><b>Criar uma Página</b></a> para uma celebridade, uma marca ou uma empresa.</p>
+
+              <!-- Div de outra página -->
+              <div id="div">
+                <i class="material-icons">clear</i> 
+                <div id="titulo">Cadastre-se</div>
+                <div id="sub-titulo">É rápido e fácil.</div>
+                <div class="border"></div>
+                <div id="div-cadastro">
+                    <input type="text" placeholder="Nome" id="input-n">
+                    <input type="text" placeholder="Sobrenome" id="input-s">
+                    <input type="email" placeholder="Celular ou email" id="input-id">
+                    <input type="text" placeholder="Nova senha" id="input-id">
+                    <p class="p">Data de nascimento</p>
+                    <span></span>
+                    <select name="birthday_day" id="">
+                    <option value="1">1</option>
+                    </select>
+                    <button class="btn waves-effect waves-light" type="submit" id="btn-enviar">botão</button>
+                    
+                 </div>
+             </div>
 </body>
 </html>
 
